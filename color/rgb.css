@@ -1,19 +1,29 @@
+/* RGB */
+
 p {
   color: rgb(117, 100, 150);
 }
+
+/* HEX */
 
 #wish {
   color: #e6821e;
 }
 
+/* HSL */
+
 #ins {
   color: hsl(83, 0%, 34%);
 }
+
+/* RGB Background */
 
 #headphone {
   background-color: rgb(29, 190, 150);
   color: black;
 }
+
+/* RGBA Background*/
 
 #mi {
   background-color: rgba(166, 56, 180, 0.1);

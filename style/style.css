@@ -1,0 +1,28 @@
+/* Type Selector */
+
+h2,
+h3 {
+  color: orange;
+}
+
+h1 {
+  color: blue;
+}
+
+/* Universol Selector */
+
+* {
+  color: green;
+}
+
+/* Id Selector */
+
+#soft {
+  color: yellow;
+}
+
+/* Class Selector */
+
+.bluetext {
+  color: blue;
+}

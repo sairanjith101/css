@@ -1,0 +1,25 @@
+p {
+  color: rgb(117, 100, 150);
+}
+
+#wish {
+  color: #e6821e;
+}
+
+#ins {
+  color: hsl(83, 0%, 34%);
+}
+
+#headphone {
+  background-color: rgb(29, 190, 150);
+  color: black;
+}
+
+#mi {
+  background-color: rgba(166, 56, 180, 0.1);
+  color: green;
+}
+
+body {
+  background-color: azure;
+}

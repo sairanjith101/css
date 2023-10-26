@@ -1,15 +1,23 @@
-div > p {
-  color: blue;
+#mor {
+  color: rgb(139, 19, 25);
 }
 
-div a {
-  color: red;
+#aft {
+  color: #e6d2c8;
 }
 
-h1 ~ h4 {
-  color: violet;
+#eve {
+  color: hsl(120, 100%, 80%);
 }
 
-h1 + h2 {
-  color: brown;
+#nit {
+  background-color: rgb(20, 100, 180);
+}
+
+#wish {
+  background-color: rgba(200, 220, 240, 0.9);
+}
+
+body {
+  background-color: indigo;
 }

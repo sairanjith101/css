@@ -1,0 +1,75 @@
+/* Heading font style */
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 0.5em;
+  word-spacing: 1em;
+  text-align: center;
+}
+
+/* Over all body  font */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  /* 1/125 of an inch */
+  font-size: 16px;
+}
+
+/* Font size - Pixel */
+p#tele {
+  font-size: 8px;
+}
+
+/* Font size - Percentage*/
+
+p#thiru {
+  font-size: 57%;
+}
+
+/* Font size - em (width of m) */
+p#pudu {
+  font-size: 1em;
+}
+
+p#cola {
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 50px;
+  text-shadow: 2px 2px 2px green;
+}
+
+p#cola::first-letter {
+  font-size: 2em;
+}
+
+/* pseudo class (below order only applicable) */
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: green;
+}
+
+a:focus {
+  color: black;
+}
+
+a:active {
+  color: deeppink;
+}
+
+/* pseudo class - Advanced */
+
+p[id="ind"] {
+  color: yellow;
+}

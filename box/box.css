@@ -1,0 +1,49 @@
+h1 {
+  border: 1px solid black;
+  width: 120px;
+}
+
+p {
+  /* border: 1px solid greenyellow; */
+  width: 300px;
+  /* height: 140px; */
+  /* max-height: 110px;
+  overflow: scroll; */
+  /* border-width: 4px; */
+  border-width: 7px 5px 3px 2px;
+  /* border-top-width: 7px;
+  border-bottom-width: 4px; */
+  border-style: solid dashed;
+  border-top-style: double;
+  border-color: black;
+  background-color: yellowgreen;
+  padding: 12px;
+  /* margin: 20px; */
+  margin: 20px auto 20px auto;
+  border-radius: 50px 30px;
+
+  /* box-shadow: 20px 10px 10px; */
+
+  border: 30px solid;
+  border-image: url(/media/border.png) 30 stretch;
+}
+
+.paradiv {
+  /* width: 400px; */
+  max-width: 1200px;
+  min-width: 500px;
+  border: 1px solid black;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+.cat {
+  display: none;
+}
+
+.menu {
+  visibility: hidden;
+}

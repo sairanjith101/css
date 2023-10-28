@@ -1,23 +1,50 @@
-#mor {
-  color: rgb(139, 19, 25);
-}
-
-#aft {
-  color: #e6d2c8;
-}
-
-#eve {
-  color: hsl(120, 100%, 80%);
-}
-
-#nit {
-  background-color: rgb(20, 100, 180);
-}
-
-#wish {
-  background-color: rgba(200, 220, 240, 0.9);
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-weight: 200;
+  font-style: italic;
+  font-stretch: condensed;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
+  text-align: center;
 }
 
 body {
-  background-color: indigo;
+  color: green;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 70px;
+  text-shadow: 2px 2px 2px blue;
+}
+
+p#para::first-letter {
+  font-size: 2em;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:focus {
+  color: red;
+}
+
+a:active {
+  color: blueviolet;
+}
+
+p[id="para"] {
+  color: black;
 }

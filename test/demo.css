@@ -1,50 +1,37 @@
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
-  font-weight: 200;
-  font-style: italic;
-  font-stretch: condensed;
-  text-transform: uppercase;
-  text-decoration: underline;
-  letter-spacing: 0.1em;
-  word-spacing: 0.5em;
-  text-align: center;
+  border: 2px solid greenyellow;
+  width: 170px;
 }
 
-body {
-  color: green;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2em;
-  line-height: 1.5em;
-  text-align: justify;
-  text-indent: 70px;
-  text-shadow: 2px 2px 2px blue;
+p {
+  /* border: 2px solid yellowgreen; */
+  width: 300px;
+  height: 150px;
+  overflow: scroll;
+  border-style: double;
+  border: 10px 3px 2px 1px;
+  border-top-width: 10px;
+  border-color: yellowgreen;
+  background-color: lavender;
+  padding: 10px;
+  margin: 10px auto 10px auto;
 }
 
-p#para::first-letter {
-  font-size: 2em;
+li {
+  display: inline;
 }
 
-a:link {
-  color: blue;
+.no1 {
+  display: none;
 }
 
-a:visited {
-  color: brown;
+.no2 {
+  visibility: hidden;
 }
 
-a:hover {
-  color: pink;
-}
-
-a:focus {
-  color: red;
-}
-
-a:active {
-  color: blueviolet;
-}
-
-p[id="para"] {
-  color: black;
+.actor {
+  border: 2px solid blueviolet;
+  /* width: 1200px; */
+  max-width: 1200px;
+  min-width: 300px;
 }

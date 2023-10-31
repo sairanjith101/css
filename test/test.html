@@ -7,25 +7,31 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>KollyWood</h1>
-    <div>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li class="no1">Contact</li>
-        <li class="no2">Menu</li>
-      </ul>
-    </div>
-    <div class="actor">
-      <p>
-        Dhanush was born as Venkatesh Prabhu Kasthuri Raja[17] on 28 July 1983
-        to Tamil film director and producer, Kasthuri Raja, and his wife,
-        Vijayalakshmi, in Madras, Tamil Nadu.[18] Initially he wished to go to a
-        school of hotel management and become a chef.[19] However his brother,
-        director Selvaraghavan, pressured him to become an actor.[20][21]
-        Dhanush also has two sisters named Vimalageetha and Karthiga
-        Karthik.[22]
-      </p>
+    <div class="regform">
+      <h3>Sign Up</h3>
+      <form action="">
+        <div class="input">
+          <label class="label" for="name">User Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="input">
+          <label class="label" for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="input">
+          <label class="label" for="pwd">Password</label>
+          <input type="password" name="pwd" id="pwd" />
+        </div>
+        <div class="radio">
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label>
+        </div>
+        <div class="btn">
+          <button type="submit">Register</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>

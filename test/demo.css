@@ -1,6 +1,6 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(/media/city.jpg);
+  background-image: url(/media/tiger.jpg);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .regform {
@@ -9,13 +9,13 @@ body {
   padding: 10px 20px 30px;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  border-radius: 10px;
   font-size: 30px;
+  border-radius: 10px;
 }
 
 .regform h3 {
   text-align: center;
-  color: #b8cee4;
+  color: rgba(196, 79, 79, 0.719);
 }
 
 .regform .label {
@@ -25,16 +25,16 @@ body {
 .input input {
   width: 100%;
   font-size: 1.2em;
-  border: 1px solid rgb(15, 130, 207);
+  border: 1px solid rgb(161, 12, 12);
   box-shadow: 2px;
   border-radius: 8px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   box-sizing: border-box;
   margin: 5px 0px 15px;
 }
 
-input:focus {
-  background-color: rgb(132, 198, 214);
+.input :focus {
+  background-color: #d4d083;
 }
 
 .btn {
@@ -42,17 +42,18 @@ input:focus {
 }
 
 button {
-  font-size: 35px;
-  margin-top: 20px;
+  background-color: rgba(194, 70, 70, 0.719);
+  font-size: 30px;
   color: white;
-  background-color: rgb(89, 144, 146);
-  border-radius: 8px;
+  margin-top: 20px;
   padding: 15px 25px;
-  border: 1px solid rgb(35, 176, 219);
+  width: auto;
+  border-radius: 8px;
+  border: 1px solid rgb(145, 76, 76);
   box-shadow: 2px;
 }
 
 .radio input {
-  accent-color: #16aacf;
+  accent-color: blue;
   transform: scale(1.5);
 }

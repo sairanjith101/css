@@ -1,0 +1,37 @@
+.box {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  /* background-color: gray; */
+  /* background: linear-gradient(blue, yellow); */
+  /* background: linear-gradient(to left, blue, green, yellow); */
+  /* background: linear-gradient(to right, blue, green, yellow); */
+  /* background: linear-gradient(to top, blue, green, yellow); */
+  /* background: linear-gradient(to top right, blue, green, yellow); */
+  /* background: linear-gradient(to top right, blue 60%, green, yellow); */
+  /* background: linear-gradient(45deg, blue, green, yellow); */
+  /* background: linear-gradient(
+    to left,
+    blue 30%,
+    blue,
+    green 30%,
+    green,
+    yellow
+  ); */
+  /* background: radial-gradient(blue, yellow); */
+  /* background: radial-gradient(blue 30%, blue, green 30%, green, yellow); */
+  /* background: repeating-linear-gradient(blue 20px, green 30px); */
+  /* background: repeating-linear-gradient(
+    blue 10px,
+    blue 20px,
+    green 10px,
+    green 30px
+  ); */
+
+  background: repeating-radial-gradient(
+    blue 10px,
+    blue 20px,
+    green 10px,
+    green 30px
+  );
+}

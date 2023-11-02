@@ -1,8 +1,14 @@
-.col p {
-  width: 30%;
-  float: left;
-}
-
-.col p:nth-child(4) {
-  clear: left;
+.box {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  /* background-color: green; */
+  background: repeating-radial-gradient(
+    rgb(35, 35, 212) 20px,
+    blue,
+    green 40px,
+    green,
+    yellow 60px,
+    red 80px
+  );
 }

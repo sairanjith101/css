@@ -1,0 +1,24 @@
+/* html {
+  font-size: 20px;
+}
+
+body {
+  font-size: 1.5em;
+}
+
+.para1 {
+  font-size: 2em;
+} 
+
+.para2 {
+  font-size: 2rem;
+}
+ */
+
+.para1 {
+  font-size: 20px;
+}
+
+.para2 {
+  font-size: 2rem; /* Go and chech chrome font size */
+}

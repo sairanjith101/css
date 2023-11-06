@@ -1,0 +1,77 @@
+.outerbox {
+  background-color: rgb(135, 179, 164);
+  min-height: 400px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  justify-content: center;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* align-items: stretch; */
+}
+
+.box {
+  /* width: 150px;
+  height: 250px;*/
+  width: 180px;
+  height: 180px;
+  background-color: yellowgreen;
+  border: 2px solid white;
+}
+
+.box1 {
+  /* align-self: flex-start; */
+  flex-shrink: 0;
+}
+
+/* .box2 {
+  flex-grow: 2;
+  flex-basis: 0;
+}  */
+
+/* .box3 {
+  flex-grow: 1;
+  flex-basis: 0;
+} */
+
+/* .box4 {
+  flex: 1;
+} */
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+p {
+  padding: 10px;
+}
+
+.para1 {
+  background-color: rgb(128, 214, 128);
+  flex: 1;
+  order: 1;
+}
+
+.para2 {
+  background-color: rgb(141, 141, 219);
+  flex: 1;
+  order: 3;
+}
+
+.para3 {
+  background-color: rgb(223, 144, 144);
+  flex: 2;
+  order: 2;
+}
+
+/* Note */
+
+/* flex: 1; same width for 3 para (1:1:1) */
+/* flex: 1; same width for 3 para (1:1:2) */
+/* align-items: stretch; (without height) */
+/* try box1 flex-shrink:1 and box2 flex-shrink:2 */
+/* original order ==> .box1{
+    flex: 1 2 0px;
+ } */
+/* flex:1 2 0px; ==> 1<grow> 2<shrink> 0px<basis>*/
